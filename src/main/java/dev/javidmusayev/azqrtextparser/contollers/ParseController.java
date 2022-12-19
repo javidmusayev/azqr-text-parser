@@ -41,7 +41,7 @@ public class ParseController {
         TLV tlv = TLV.create(text);
 
         if (!tlv.validate())
-            throw new Exception("Invalid TLV text");
+            throw new IllegalArgumentException("Invalid TLV text");
             
         return tlv;
     }
