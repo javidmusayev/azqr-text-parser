@@ -1,4 +1,4 @@
-package dev.javidmusayev.azqrtextparser;
+package dev.javidmusayev.azqrtextparser.domains;
 
 public class CRC16 {
     private static final int POLYNOMIAL = 0x1021;
